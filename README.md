@@ -1,4 +1,8 @@
-## Hii Im Akshay-appu 👋
+# Hii Im Akshay-appu 👋
+<br>
+this is my first repository
+<br>
+Author - Akshay Kumar
 
 <!--
 **Akshay-appu/Akshay-appu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
