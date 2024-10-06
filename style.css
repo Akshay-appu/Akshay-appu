@@ -46,7 +46,7 @@ nav .navbar{
 }
 nav .navbar .logo a{
   font-weight: 500;
-  font-size: 35px;
+  font-size: 40px;
   color: #4070f4;
 }
 nav.sticky .navbar .logo a{
@@ -61,10 +61,10 @@ nav .navbar .menu li{
   margin: 0 8px;
 }
 .navbar .menu a{
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   color: #0E2431;
-  padding: 6px 0;
+  padding: 8px 0;
   transition: all 0.4s ease;
 }
 .navbar .menu a:hover{
@@ -116,12 +116,12 @@ nav.sticky .menu-btn{
   font-family: 'Ubuntu', sans-serif;
 }
 .imge {
-  width: 45%;
-  height: 80%;
+  width: 55%;
+  height: 100%;
    
   position: absolute;
-  bottom: 0px;
-  right: 100px;
+  bottom: 10px;
+  right: 120px;
 }
  
   
@@ -159,16 +159,16 @@ nav.sticky .menu-btn{
   color: #0E2431;
   font-size: 50px;
   font-weight: 500;
-  margin-left: -3px;
+  margin-left: +3px;
 }
 .home .text-three{
   font-size: 40px;
-  margin: 5px 0;
+  margin: 10px 0;
   color: #4070f4;
 }
 .home .text-four{
-  font-size: 23px;
-  margin: 5px 0;
+  font-size: 32px;
+  margin: 15px 0;
   color: #0E2431;
 }
 .home .button{
@@ -305,7 +305,7 @@ section .button button:hover{
 .skills .skills-details .experience{
   display: flex;
   align-items: center;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 .skills-details .experience .num{
   color: #0E2431;
@@ -443,11 +443,11 @@ footer .text span a:hover{
   .about .about-details .left{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 120%;
   }
   .about-details .right{
-    width: 90%;
-    margin: 40px 0;
+    width: 95%;
+    margin: 45px 0;
   }
   .services .boxes .box{
     margin: 20px 0;
@@ -498,10 +498,10 @@ footer .text span a:hover{
     display: block;
   }
   .home .text-two{
-    font-size:40px;
+    font-size:45px;
   }
   .home .text-three{
-    font-size: 35px;
+    font-size: 45px;
   }
   .skills .skills-details{
     align-items: center;
@@ -510,7 +510,7 @@ footer .text span a:hover{
   }
   .skills-details .text{
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
   }
   .skills-details .boxes{
     justify-content: center;
@@ -531,10 +531,10 @@ footer .text span a:hover{
     font-size: 40px;
   }
   .home .text-three{
-    font-size: 33px;
+    font-size: 44px;
   }
   .skills-details .boxes .per{
-    font-size: 50px;
+    font-size: 65px;
     color: #4070f4;
   }
 }
