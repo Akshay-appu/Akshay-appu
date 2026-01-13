@@ -1,3 +1,6 @@
+(function () {
+  emailjs.init("fp2ihnbxtgJ9bg1at"); // 🔴 replace with your EmailJS Public Key
+})();
 $(document).ready(function () {
   // Scroll down sticky navbar script start
   $(window).scroll(function () {
@@ -91,3 +94,32 @@ $(document).ready(function () {
 const currentYear = new Date().getFullYear();
 // Set the current year in the span with id "year"
 document.getElementById('year').textContent = currentYear;
+// Contact form EmailJS integration
+document.getElementById("contact-form").addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  const params = {
+    from_name: document.getElementById("name").value,
+    from_email: document.getElementById("email").value,
+    subject: document.getElementById("subject").value,
+    message: document.getElementById("message").value,
+  };
+
+  emailjs
+    .send(
+      "service_1tr6gbr",   // 🔴 EmailJS Service ID
+      "template_2beo738",  // 🔴 EmailJS Template ID
+      params
+    )
+    .then(
+      function () {
+        alert("✅ Message sent successfully!");
+        document.getElementById("contact-form").reset();
+      },
+      function (error) {
+        alert("❌ Failed to send message. Try again!");
+        console.error("EmailJS Error:", error);
+      }
+    );
+});
+
